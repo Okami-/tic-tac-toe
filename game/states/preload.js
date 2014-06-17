@@ -13,7 +13,7 @@ Preload.prototype = {
     this.load.onLoadComplete.addOnce(this.onLoadComplete, this);
     this.load.setPreloadSprite(this.asset);
     this.load.image('yeoman', 'assets/yeoman-logo.png');
-
+    this.load.spritesheet('cell', 'assets/cell.png', 107, 107);
   },
   create: function() {
     this.asset.cropEnabled = false;
