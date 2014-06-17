@@ -1,5 +1,5 @@
 {
   "projectName": "tic-tac-toe",
-  "gameWidth": "800",
-  "gameHeight": "600"
+  "gameWidth": "320",
+  "gameHeight": "480"
 }
